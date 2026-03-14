@@ -15,8 +15,6 @@ Aplikasi ini memungkinkan pengguna untuk:
 
 Semua data disimpan secara online menggunakan **Supabase**, sehingga tidak lagi menggunakan list lokal seperti pada Mini Project 1.
 
----
-
 ## Fitur Aplikasi
 
 ### 1. Login Page
