@@ -91,6 +91,33 @@ Field pada tabel:
 Beberapa widget Flutter yang digunakan dalam aplikasi ini antara lain:
 
 - MaterialApp
+
+``
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Booking Desain',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: AppColors.primary,
+          primary: AppColors.primary,
+          secondary: AppColors.accent,
+        ),
+        scaffoldBackgroundColor: AppColors.background,
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          backgroundColor: AppColors.primary,
+          foregroundColor: Colors.white,
+        ),
+      ),
+      home: const AuthGate(),
+    );
+  }
+}
+``
+
 - Scaffold
 - AppBar
 - TextField
