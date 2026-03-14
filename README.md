@@ -20,8 +20,12 @@ Semua data disimpan secara online menggunakan **Supabase**, sehingga tidak lagi 
 ### 1. Login Page
 Pada halaman ini, pengguna dapat masuk ke aplikasi menggunakan email dan password yang sudah terdaftar pada **Supabase Auth**.
 
+
+
 ### 2. Register Page
 Pada halaman ini, pengguna dapat membuat akun baru menggunakan email dan password. Setelah registrasi berhasil, pengguna diarahkan untuk login terlebih dahulu.
+
+
 
 ### 3. Booking List Page
 Halaman utama aplikasi setelah login. Halaman ini menampilkan seluruh data booking desain yang tersimpan di database **Supabase**.  
