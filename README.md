@@ -119,25 +119,273 @@ Beberapa widget Flutter yang digunakan dalam aplikasi ini antara lain:
 ```
 
 - Scaffold
+
+```
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Scaffold(
+            body: Center(
+              child: CircularProgressIndicator(),
+            ),
+          );
+        }
+```
+
 - AppBar
+
+```
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFF8F5F7),
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+        foregroundColor: AppColors.primary,
+        title: const Text(
+          'Booking Desain',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: AppColors.primary,
+          ),
+        ),
+        centerTitle: true,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 8),
+            child: IconButton(
+              onPressed: _isLoggingOut ? null : _konfirmasiLogout,
+              tooltip: 'Logout',
+              icon: _isLoggingOut
+                  ? const SizedBox(
+                      height: 20,
+                      width: 20,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: AppColors.primary,
+                      ),
+                    )
+                  : const Icon(Icons.logout_rounded),
+            ),
+          ),
+        ],
+      ),
+```
+
 - TextField
+
+```
+  Widget _buildPasswordField() {
+    return TextField(
+      controller: passwordController,
+      obscureText: obscurePassword,
+      decoration: _inputDecoration(
+        label: 'Password',
+        icon: Icons.lock_outline,
+        suffixIcon: IconButton(
+          onPressed: () {
+            setState(() {
+              obscurePassword = !obscurePassword;
+            });
+          },
+          icon: Icon(
+            obscurePassword
+                ? Icons.visibility_off_outlined
+                : Icons.visibility_outlined,
+          ),
+        ),
+      ),
+    );
+  }
+```
+
 - TextFormField
+
+```
+TextFormField(
+                        controller: _deadlineController,
+                        readOnly: true,
+                        onTap: _pilihTanggal,
+                        decoration: _inputDecoration(
+                          label: 'Deadline',
+                          icon: Icons.calendar_today_outlined,
+                          hintText: 'Pilih tanggal deadline',
+                        ).copyWith(
+                          suffixIcon: IconButton(
+                            onPressed: _pilihTanggal,
+                            icon: const Icon(Icons.date_range_outlined),
+                          ),
+                        ),
+                        validator: (value) {
+                          if (value == null || value.trim().isEmpty) {
+                            return 'Deadline tidak boleh kosong';
+                          }
+                          return null;
+                        },
+                      ),
+                      const SizedBox(height: 16),
+                      TextFormField(
+                        controller: _noteController,
+                        maxLines: 3,
+                        decoration: _inputDecoration(
+                          label: 'Note',
+                          icon: Icons.note_alt_outlined,
+                          hintText: 'Tambahkan catatan jika ada',
+                        ).copyWith(
+                          alignLabelWithHint: true,
+                        ),
+                      ),
+```
+
 - DropdownButtonFormField
+
+```
+DropdownButtonFormField<String>(
+                        value: _jenisDesain,
+                        decoration: _inputDecoration(
+                          label: 'Jenis Desain',
+                          icon: Icons.palette_outlined,
+                        ),
+                        items: _pilihanDesain.map((item) {
+                          return DropdownMenuItem<String>(
+                            value: item,
+                            child: Text(item),
+                          );
+                        }).toList(),
+                        onChanged: _isLoading
+                            ? null
+                            : (value) {
+                                if (value != null) {
+                                  _updateHarga(value);
+                                }
+                              },
+                        validator: (value) {
+                          if (value == null || value.isEmpty) {
+                            return 'Pilih jenis desain';
+                          }
+                          return null;
+                        },
+                      ),
+```
+
 - ElevatedButton
+
+```
+child: ElevatedButton(
+        onPressed: _isLoading ? null : _simpanData,
+        style: ElevatedButton.styleFrom(
+          backgroundColor: AppColors.primary,
+          foregroundColor: Colors.white,
+          elevation: 0,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+        ),
+        child: _isLoading
+            ? const SizedBox(
+                height: 22,
+                width: 22,
+                child: CircularProgressIndicator(
+                  strokeWidth: 2.5,
+                  color: Colors.white,
+                ),
+              )
+            : Text(
+                isEdit ? 'Update Booking' : 'Simpan Booking',
+                style: const TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+      ),
+```
+
 - TextButton
+
+```
+TextButton(
+              onPressed: () => Navigator.pop(context, false),
+              child: const Text('Batal'),
+            ),
+```
+
 - ListView
+
+```
+
+```
+
 - ListView.builder
+
+```
+
+```
+
 - Card
+
+```
+
+```
+
 - Container
+
+```
+
+```
+
 - Column
+
+```
+
+```
+
 - Row
+
+```
+
+```
+
 - SnackBar
+
+```
+
+```
+
 - FutureBuilder
+
+```
+
+```
+
 - Navigator
+
+```
+
+```
+
 - PopupMenuButton
+
+```
+
+```
+
 - AlertDialog
+
+```
+
+```
+
 - FloatingActionButton
+
+```
+
+```
+
 - SingleChildScrollView
+
+```
+
+```
+
 
 ---
 
