@@ -848,14 +848,8 @@ Row(
 
 ## Struktur Halaman
 
-Aplikasi ini memiliki minimal dua halaman utama sesuai ketentuan tugas:
-
-1. Halaman List Data → BookingListPage
-2. Halaman Form Tambah/Edit Data → BookingFormPage
+Aplikasi ini memiliki minimal dua halaman utama sesuai ketentuan tugas yaitu halaman list data, form tambah/edit data dan penambahan login dan registrasi.
 
 
-Selain itu, terdapat halaman tambahan:
-- LoginPage
-- RegisterPage
 
 ## Struktur Folder Project
