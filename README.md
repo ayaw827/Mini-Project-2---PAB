@@ -92,8 +92,8 @@ Beberapa widget Flutter yang digunakan dalam aplikasi ini antara lain:
 
 - MaterialApp
 
-``
-  @override
+```
+@override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -116,7 +116,7 @@ Beberapa widget Flutter yang digunakan dalam aplikasi ini antara lain:
     );
   }
 }
-``
+```
 
 - Scaffold
 - AppBar
