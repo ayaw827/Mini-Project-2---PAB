@@ -48,8 +48,6 @@ Harga akan otomatis menyesuaikan jenis desain yang dipilih.
 ### 5. Date Picker
 Pada field deadline, pengguna dapat memilih tanggal menggunakan Date Picker, sehingga input menjadi lebih mudah dan rapi.
 
----
-
 ## Fitur CRUD
 
 Aplikasi ini telah memenuhi operasi CRUD sebagai berikut:
@@ -65,8 +63,6 @@ Mengedit data booking yang sudah ada.
 
 ### Delete
 Menghapus data booking dari Supabase.
-
----
 
 ## Integrasi Supabase
 
@@ -85,8 +81,6 @@ Field pada tabel:
 - deadline
 - note
 - harga
-
----
 
 ## Widget yang Digunakan
 
@@ -852,9 +846,6 @@ Row(
         ),
 ```
 
-
----
-
 ## Struktur Halaman
 
 Aplikasi ini memiliki minimal dua halaman utama sesuai ketentuan tugas:
@@ -866,7 +857,5 @@ Aplikasi ini memiliki minimal dua halaman utama sesuai ketentuan tugas:
 Selain itu, terdapat halaman tambahan:
 - LoginPage
 - RegisterPage
-
----
 
 ## Struktur Folder Project
