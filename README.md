@@ -62,7 +62,7 @@ Aplikasi ini telah memenuhi operasi CRUD sebagai berikut:
 ### Create
 Menambahkan data booking baru ke database Supabase.
 
-![alt text](?raw=true)
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/tambah%201.png?raw=true)
 
 ### Read
 Menampilkan seluruh data booking dari Supabase ke halaman list.
@@ -96,6 +96,8 @@ Field pada tabel:
 - deadline
 - note
 - harga
+
+![alt text](?raw=true)
 
 ## Widget yang Digunakan
 
@@ -865,6 +867,8 @@ Row(
 
 Aplikasi ini memiliki minimal dua halaman utama sesuai ketentuan tugas yaitu halaman list data, form tambah/edit data dan penambahan login dan registrasi.
 
-
+![alt text](?raw=true)
 
 ## Struktur Folder Project
+
+![alt text](?raw=true)
