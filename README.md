@@ -31,10 +31,11 @@ Pada halaman ini, pengguna dapat membuat akun baru menggunakan email dan passwor
 Halaman utama aplikasi setelah login. Halaman ini menampilkan seluruh data booking desain yang tersimpan di database Supabase.  
 Pengguna juga dapat:
 - Melihat daftar booking
-- Refresh data
 - Logout
 - Menambah data baru
 - Memilih menu edit atau hapus pada setiap data
+
+![alt text](?raw=true)
 
 ### 4. Booking Form Page
 Halaman form digunakan untuk menambahkan atau mengedit data booking.  
@@ -45,10 +46,14 @@ Field yang tersedia:
 - Note
 - Harga
 
+![alt text](?raw=true)
+
 Harga akan otomatis menyesuaikan jenis desain yang dipilih.
 
 ### 5. Date Picker
 Pada field deadline, pengguna dapat memilih tanggal menggunakan Date Picker, sehingga input menjadi lebih mudah dan rapi.
+
+![alt text](?raw=true)
 
 ## Fitur CRUD
 
