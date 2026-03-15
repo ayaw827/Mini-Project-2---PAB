@@ -20,10 +20,12 @@ Semua data disimpan secara online menggunakan **Supabase**, sehingga tidak lagi 
 ### 1. Login Page
 Pada halaman ini, pengguna dapat masuk ke aplikasi menggunakan email dan password yang sudah terdaftar pada **Supabase Auth**.
 
-
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/f4e87e2272e20e4820ed2cc0aabcb3d8563ca1a8/login.png?raw=true)
 
 ### 2. Register Page
 Pada halaman ini, pengguna dapat membuat akun baru menggunakan email dan password. Setelah registrasi berhasil, pengguna diarahkan untuk login terlebih dahulu.
+
+![alt text](?raw=true)
 
 ### 3. Booking List Page
 Halaman utama aplikasi setelah login. Halaman ini menampilkan seluruh data booking desain yang tersimpan di database Supabase.  
