@@ -25,7 +25,7 @@ Pada halaman ini, pengguna dapat masuk ke aplikasi menggunakan email dan passwor
 ### 2. Register Page
 Pada halaman ini, pengguna dapat membuat akun baru menggunakan email dan password. Setelah registrasi berhasil, pengguna diarahkan untuk login terlebih dahulu.
 
-![alt text](?raw=true)
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/register.png?raw=true)
 
 ### 3. Booking List Page
 Halaman utama aplikasi setelah login. Halaman ini menampilkan seluruh data booking desain yang tersimpan di database Supabase.  
@@ -35,7 +35,7 @@ Pengguna juga dapat:
 - Menambah data baru
 - Memilih menu edit atau hapus pada setiap data
 
-![alt text](?raw=true)
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/Screenshot%20(1306).png?raw=true)
 
 ### 4. Booking Form Page
 Halaman form digunakan untuk menambahkan atau mengedit data booking.  
@@ -46,14 +46,14 @@ Field yang tersedia:
 - Note
 - Harga
 
-![alt text](?raw=true)
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/tambah.png?raw=true)
 
 Harga akan otomatis menyesuaikan jenis desain yang dipilih.
 
 ### 5. Date Picker
 Pada field deadline, pengguna dapat memilih tanggal menggunakan Date Picker, sehingga input menjadi lebih mudah dan rapi.
 
-![alt text](?raw=true)
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/pilih%20tanggal.png?raw=true)
 
 ## Fitur CRUD
 
@@ -61,6 +61,8 @@ Aplikasi ini telah memenuhi operasi CRUD sebagai berikut:
 
 ### Create
 Menambahkan data booking baru ke database Supabase.
+
+
 
 ### Read
 Menampilkan seluruh data booking dari Supabase ke halaman list.
