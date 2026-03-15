@@ -62,16 +62,22 @@ Aplikasi ini telah memenuhi operasi CRUD sebagai berikut:
 ### Create
 Menambahkan data booking baru ke database Supabase.
 
-
+![alt text](?raw=true)
 
 ### Read
 Menampilkan seluruh data booking dari Supabase ke halaman list.
 
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/read%202.png?raw=true)
+
 ### Update
 Mengedit data booking yang sudah ada.
 
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/update.png?raw=true)
+
 ### Delete
 Menghapus data booking dari Supabase.
+
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/delete.png?raw=true)
 
 ## Integrasi Supabase
 
