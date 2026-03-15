@@ -862,13 +862,3 @@ Row(
           ),
         ),
 ```
-
-## Struktur Halaman
-
-Aplikasi ini memiliki minimal dua halaman utama sesuai ketentuan tugas yaitu halaman list data, form tambah/edit data dan penambahan login dan registrasi.
-
-![alt text](?raw=true)
-
-## Struktur Folder Project
-
-![alt text](?raw=true)
