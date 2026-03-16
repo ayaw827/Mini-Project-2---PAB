@@ -97,7 +97,7 @@ Field pada tabel:
 - note
 - harga
 
-![alt text](?raw=true)
+![alt text](https://github.com/ayaw827/Mini-Project-2---PAB/blob/main/supabase.png?raw=true)
 
 ## Widget yang Digunakan
 
